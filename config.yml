@@ -1,0 +1,11 @@
+baseurl:
+    #为多个项目配置项目的基础路径时，直接在下方以Key:value形式添加
+    wechatApi: https://api.weixin.qq.com/cgi-bin
+    forumphp: http://47.107.116.139/phpwind/
+dir:
+  ui_entry: C:\Users\Uneven\Desktop\codes\python\seleniumWeb\excel
+log:
+  log_name: logs_
+  log_level: debug
+  log_format: '[%(asctime)s] %(filename)s->%(funcName)s line:%(lineno)d [%(levelname)s] %(message)s'
+

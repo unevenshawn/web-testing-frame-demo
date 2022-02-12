@@ -1,0 +1,112 @@
+C:\Users\Uneven\Desktop\codes\python\seleniumWeb\venv\Scripts\python.exe C:/Users/Uneven/Desktop/codes/python/seleniumWeb/main.py
+pytest start
+============================= test session starts =============================
+platform win32 -- Python 3.9.7, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\Uneven\Desktop\codes\python\seleniumWeb\venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.9.7', 'Platform': 'Windows-10-10.0.19042-SP0', 'Packages': {'pytest': '6.2.5', 'py': '1.11.0', 'pluggy': '1.0.0'}, 'Plugins': {'base-url': '1.4.2', 'rerunfailures': '10.2', 'allure-pytest': '2.9.45', 'forked': '1.4.0', 'html': '3.1.1', 'metadata': '1.11.0', 'ordering': '0.6', 'xdist': '2.5.0'}, 'JAVA_HOME': 'C:\\MyPrograms\\openjdk-11+28_windows-x64_bin\\jdk-11', 'Base URL': ''}
+rootdir: C:\Users\Uneven\Desktop\codes\python\seleniumWeb, configfile: pytest.ini, testpaths: ./testcase
+plugins: base-url-1.4.2, rerunfailures-10.2, allure-pytest-2.9.45, forked-1.4.0, html-3.1.1, metadata-1.11.0, ordering-0.6, xdist-2.5.0
+collecting ... [2022-02-05 20:16:10,367] case.py->unpack line:71 [DEBUG] Test_ddt - 副本.xlsx-Sheet1对应着,{}
+[2022-02-05 20:16:10,400] case.py->unpack line:71 [DEBUG] test_框架搭建测试.xlsx-Sheet2对应着,{1: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet2', 'case_no': 1, 'case_name': '测试登录', 'steps': [[1, 'get', 'https://www.jd.com/']]}}
+[2022-02-05 20:16:10,400] test_ddt.py-><module> line:14 [DEBUG] suite in test_ddt{1: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet2', 'case_no': 1, 'case_name': '测试登录', 'steps': [[1, 'get', 'https://www.jd.com/']]}}
+[2022-02-05 20:16:10,400] test_ddt.py-><module> line:25 [DEBUG] modulename是test_框架搭建测试.xlsx-Sheet2
+[2022-02-05 20:16:10,400] case.py->unpack line:71 [DEBUG] test_框架搭建测试.xlsx-Sheet1对应着,{1: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 1, 'case_name': '测试登录', 'steps': [[1, '跳转网页', 'get', 'https://baidu.com'], [2, '输入', 'input', '//*[@id="kw"]', '成功']]}, 2: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 2, 'case_name': '测试注册', 'steps': [[1, '跳转', 'get', 'https://cn.bing.com/'], [2, '点击', 'click', '//*[@id="images"]/a']]}, 3: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 3, 'case_name': '测试弹窗', 'steps': [[1, '发送请求', 'get', 'https://www.w3school.com.cn/tiy/t.asp?f=hdom_alert'], [2, '切换frame', 'frame', '//*[@id="iframeResult"]'], [3, '点击', 'click', '//*/input'], [4, '保存文本', 'save_text', 'alert', 'msg'], [5, '弹窗', 'alert'], [6, '新会话', 'session'], [7, '发送请求', 'get', 'https://store.steampowered.com/'], [8, '退出会话', 'quit_session']]}}
+[2022-02-05 20:16:10,400] test_ddt.py-><module> line:14 [DEBUG] suite in test_ddt{1: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 1, 'case_name': '测试登录', 'steps': [[1, '跳转网页', 'get', 'https://baidu.com'], [2, '输入', 'input', '//*[@id="kw"]', '成功']]}, 2: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 2, 'case_name': '测试注册', 'steps': [[1, '跳转', 'get', 'https://cn.bing.com/'], [2, '点击', 'click', '//*[@id="images"]/a']]}, 3: {'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 3, 'case_name': '测试弹窗', 'steps': [[1, '发送请求', 'get', 'https://www.w3school.com.cn/tiy/t.asp?f=hdom_alert'], [2, '切换frame', 'frame', '//*[@id="iframeResult"]'], [3, '点击', 'click', '//*/input'], [4, '保存文本', 'save_text', 'alert', 'msg'], [5, '弹窗', 'alert'], [6, '新会话', 'session'], [7, '发送请求', 'get', 'https://store.steampowered.com/'], [8, '退出会话', 'quit_session']]}}
+[2022-02-05 20:16:10,400] test_ddt.py-><module> line:25 [DEBUG] modulename是test_框架搭建测试.xlsx-Sheet1
+[2022-02-05 20:16:10,400] test_ddt.py-><module> line:25 [DEBUG] modulename是test_框架搭建测试.xlsx-Sheet1
+[2022-02-05 20:16:10,400] test_ddt.py-><module> line:25 [DEBUG] modulename是test_框架搭建测试.xlsx-Sheet1
+collected 2 items
+
+testcase/test_ddt.py::test_框架搭建测试.xlsx-Sheet2::test_case_1 PASSED
+testcase/test_ddt.py::test_框架搭建测试.xlsx-Sheet1::test_case_1 PASSED
+[2022-02-05 20:16:10,425] case.py->test_case line:47 [DEBUG]
+test_case方法所传入参数：{'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet2', 'case_no': 1, 'case_name': '测试登录', 'steps': [[1, 'get', 'https://www.jd.com/']]}
+[2022-02-05 20:16:10,432] case.py->test_case line:47 [DEBUG]
+test_case方法所传入参数：{'xl_name': 'test_框架搭建测试.xlsx', 'sheetname': 'Sheet1', 'case_no': 3, 'case_name': '测试弹窗', 'steps': [[1, '发送请求', 'get', 'https://www.w3school.com.cn/tiy/t.asp?f=hdom_alert'], [2, '切换frame', 'frame', '//*[@id="iframeResult"]'], [3, '点击', 'click', '//*/input'], [4, '保存文本', 'save_text', 'alert', 'msg'], [5, '弹窗', 'alert'], [6, '新会话', 'session'], [7, '发送请求', 'get', 'https://store.steampowered.com/'], [8, '退出会话', 'quit_session']]}
+pytest stop
+
+============================== 2 passed in 0.74s ==============================
+Report successfully generated to .\reports\report_2022-02-05
+
+Process finished with exit code 0
+
+
+
+
+C:\Users\Uneven\Desktop\codes\python\seleniumWeb\venv\Scripts\python.exe C:/Users/Uneven/Desktop/codes/python/seleniumWeb/main.py
+pytest start
+============================= test session starts =============================
+platform win32 -- Python 3.9.7, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\Uneven\Desktop\codes\python\seleniumWeb\venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.9.7', 'Platform': 'Windows-10-10.0.19042-SP0', 'Packages': {'pytest': '6.2.5', 'py': '1.11.0', 'pluggy': '1.0.0'}, 'Plugins': {'base-url': '1.4.2', 'rerunfailures': '10.2', 'allure-pytest': '2.9.45', 'forked': '1.4.0', 'html': '3.1.1', 'metadata': '1.11.0', 'ordering': '0.6', 'xdist': '2.5.0'}, 'JAVA_HOME': 'C:\\MyPrograms\\openjdk-11+28_windows-x64_bin\\jdk-11', 'Base URL': ''}
+rootdir: C:\Users\Uneven\Desktop\codes\python\seleniumWeb, configfile: pytest.ini, testpaths: ./testcase
+plugins: base-url-1.4.2, rerunfailures-10.2, allure-pytest-2.9.45, forked-1.4.0, html-3.1.1, metadata-1.11.0, ordering-0.6, xdist-2.5.0
+collecting ... test_ddt.xlsx-Sheet1-测试登录-1
+test_ddt.xlsx-Sheet1-测试登录-2
+test_ddt.xlsx-Sheet1-测试注册-1
+test_ddt.xlsx-Sheet1-测试注册-2
+test_ddt.xlsx-Sheet1-测试弹窗-1
+test_ddt.xlsx-Sheet1-测试弹窗-2
+test_ddt.xlsx-Sheet1-测试弹窗-3
+test_ddt.xlsx-Sheet1-测试弹窗-4
+test_ddt.xlsx-Sheet1-测试弹窗-5
+test_ddt.xlsx-Sheet1-测试弹窗-6
+test_ddt.xlsx-Sheet1-测试弹窗-7
+test_ddt.xlsx-Sheet1-测试弹窗-8
+collected 12 items
+
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_01___测试登录___1___跳转网页____get____https___baidu_com__ <- api\case.py [2022-02-03 18:37:17,638] logUtil.py->debug_log line:80 [DEBUG] (['test_ddt.xlsx-Sheet1-测试登录-1', 'test_ddt.xlsx-Sheet1-测试登录-2', 'test_ddt.xlsx-Sheet1-测试注册-1', 'test_ddt.xlsx-Sheet1-测试注册-2', 'test_ddt.xlsx-Sheet1-测试弹窗-1', 'test_ddt.xlsx-Sheet1-测试弹窗-2', 'test_ddt.xlsx-Sheet1-测试弹窗-3', 'test_ddt.xlsx-Sheet1-测试弹窗-4', 'test_ddt.xlsx-Sheet1-测试弹窗-5', 'test_ddt.xlsx-Sheet1-测试弹窗-6', 'test_ddt.xlsx-Sheet1-测试弹窗-7', 'test_ddt.xlsx-Sheet1-测试弹窗-8'],)
+[2022-02-03 18:37:17,638] logUtil.py->debug_log line:80 [DEBUG] ('modulename是test_ddt.xlsx-Sheet1',)
+[2022-02-03 18:37:18,834] keys.py->invoke_by_key line:78 [DEBUG] get
+[2022-02-03 18:37:18,834] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+PASSED
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_02___测试登录___2___输入____input_________id__kw____ <- api\case.py PASSED
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_03___测试注册___1___跳转____get____https___cn_bing_com___ <- api\case.py [2022-02-03 18:37:19,642] keys.py->invoke_by_key line:78 [DEBUG] input
+[2022-02-03 18:37:19,642] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+[2022-02-03 18:37:19,642] case.py->test_execute line:57 [ERROR] key_input() missing 1 required positional argument: 'content'
+[2022-02-03 18:37:19,650] keys.py->invoke_by_key line:78 [DEBUG] get
+[2022-02-03 18:37:19,651] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+PASSED
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_04___测试注册___2___点击____click_________id__images___a__ <- api\case.py [2022-02-03 18:37:20,063] keys.py->invoke_by_key line:78 [DEBUG] click
+[2022-02-03 18:37:20,063] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+[2022-02-03 18:37:20,914] keys.py->invoke_by_key line:78 [DEBUG] get
+[2022-02-03 18:37:20,914] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+PASSED
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_05___测试弹窗___1___发送请求____get____https___www_w3school_com_cn_tiy_t_asp_f_hdom_alert__ <- api\case.py PASSED
+[2022-02-03 18:37:24,755] keys.py->invoke_by_key line:78 [DEBUG] frame
+[2022-02-03 18:37:24,755] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_06___测试弹窗___2___切换frame____frame_________id__iframeResult____ <- api\case.py PASSED[2022-02-03 18:37:24,789] keys.py->key_frame line:172 [DEBUG] iframe
+[2022-02-03 18:37:24,831] keys.py->invoke_by_key line:78 [DEBUG] click
+[2022-02-03 18:37:24,831] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_07___测试弹窗___3___点击____click________input__ <- api\case.py PASSED
+[2022-02-03 18:37:24,932] keys.py->invoke_by_key line:78 [DEBUG] save_text
+[2022-02-03 18:37:24,932] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+[2022-02-03 18:37:24,932] case.py->test_execute line:57 [ERROR] key_save_text() missing 2 required positional arguments: 'xpath' and 'var_name'
+[2022-02-03 18:37:24,932] keys.py->invoke_by_key line:78 [DEBUG] alert
+[2022-02-03 18:37:24,932] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+[2022-02-03 18:37:24,944] keys.py->invoke_by_key line:78 [DEBUG] session
+[2022-02-03 18:37:24,944] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+[2022-02-03 18:37:24,944] keys.py->key_session line:178 [DEBUG] 原有的9ea5b13a03de08fac5f13f42d547612c
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_08___测试弹窗___4___保存文本____save_text__ <- api\case.py PASSED
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_09___测试弹窗___5___弹窗____alert__ <- api\case.py PASSED
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_10___测试弹窗___6___新会话____session__ <- api\case.py PASSED
+[2022-02-03 18:37:26,128] keys.py->key_session line:181 [DEBUG] 新的d1001fd88649bbb4d00da5afe46cfff9
+[2022-02-03 18:37:26,138] keys.py->invoke_by_key line:78 [DEBUG] get
+[2022-02-03 18:37:26,139] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_11___测试弹窗___7___发送请求____get____https___store_steampowered_com___ <- api\case.py PASSED
+[2022-02-03 18:37:29,067] keys.py->invoke_by_key line:78 [DEBUG] quit_session
+[2022-02-03 18:37:29,067] keys.py->invoke_by_key line:79 [DEBUG] ['alert', 'assert', 'click', 'find', 'frame', 'get', 'input', 'mysql', 'quit', 'quit_session', 'save_sql', 'save_text', 'session', 'sleep', 'wait']
+testcase/test_ddt.py::test_ddt.xlsx-Sheet1::test_execute_12___测试弹窗___8___退出会话____quit_session__ <- api\case.py PASSED[2022-02-03 18:37:31,246] keys.py->key_quit_session line:188 [DEBUG] 原有的9ea5b13a03de08fac5f13f42d547612c
+
+
+============================== warnings summary ===============================
+api\keys.py:136
+  C:\Users\Uneven\Desktop\codes\python\seleniumWeb\api\keys.py:136: DeprecationWarning: invalid escape sequence \{
+    pattern = "\{\w*\}"
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+pytest stop
+======================= 12 passed, 1 warning in 15.77s ========================
+
+Process finished with exit code 0
