@@ -6,8 +6,8 @@ __pycache__/
 # allure reports
 **/reports/
 **/report/
-**/temp/
-**/temps
+**/temp/**
+**/temps/**
 **/logs
 **/log
 

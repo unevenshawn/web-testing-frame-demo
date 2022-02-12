@@ -1,8 +1,8 @@
+import webdriver_helper
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-from api import logUtil
-
+from api import logUtil, yamlUtil
 
 
 def driver():
@@ -22,7 +22,8 @@ class DriverManager:
     @classmethod
     def service(cls):
         if not cls.service_store:
-            service = Service(r"C:\Users\Uneven\Desktop\codes\python\chromedriver.exe")
+            service = Service(yamlUtil.read_conf_yml('chromedriver'))
+            service = Service(r'C:\Users\Uneven\Desktop\codes\python\chromedriver.exe')
             # cls.service_store=service
         else:
             service = cls.service_store
@@ -31,7 +32,8 @@ class DriverManager:
     @classmethod
     def driver(cls):
         service = cls.service()
-        driver = webdriver.Chrome(service=service)
+        # driver = webdriver.Chrome(service=service)
+        driver = webdriver_helper.get_webdriver()
         cls.dvs.append(driver)
         return driver
 
